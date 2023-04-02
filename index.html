@@ -13,18 +13,15 @@
 
 <body>
 
-    <section>
+    <section id="top-container">
         <input type="checkbox" id="check">
-        <div class="background-image"></div>
         <header>
-            <!-- <h2> <a href="#" class="logo"></a></h2> -->
-            <h2><img src="cfd-logo.png" alt="" width="140" height="100"></h2>
+            <h2><img id="cfd-logo" src="cfd-logo.png" alt="" width="140" height="100"></h2>
             <div class="navigation">
                 <a href="#">Home</a>
                 <a href="#">About</a>
-                <a href="#">Info</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+                <a href="#middle-container">Products</a>
+                <a href="#contact-container">Contact</a>
             </div>
             <label for="check">
                 <i class="fas fa-bars menu-btn"></i>
@@ -33,17 +30,50 @@
         </header>
         <div class="content">
             <div class="info">
-                <h2>COASTAL FLOORING <br /><span>DISTRIBUTORS</span></h2>
+                <h2>COASTAL FLOORING <br />DISTRIBUTORS</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quis, ipsam ea, nostrum numquam
                     dolor maiores, quae asperiores porro ut totam tempora corrupti quam a odit. Exercitationem veritatis
                     maiores reiciendis!</p>
                 <a href="#" class="info-btn">More info</a>
             </div>
         </div>
-        <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+    </section>
+    <section id="middle-container">
+        <h2 class="content">Proudly distributing the following fine floors:</h2>
+        <div id="product-row">
+            <div class="product-logo"><img src="southern-comfort-logo.png" height="300"></div>
+            <div class="product-logo"><img src="true-touch-logo.png" height="300"></div>
+        </div>
+    </section>
+    <section id="contact-container">
+        <div class="content contact">
+            <h2>COASTAL FLOORING <br />DISTRIBUTORS</h2>
+            <div id="address">
+                <p>
+                    For orders, email
+                    <a href="mailto:orders@coastalfd.com">orders@coastalfd.com</a>
+                    <br />
+                    Or call us at 407.553.8850
+                </p>
+                <br />
+                <p>
+                    301 Mango Tree Drive
+                    <br />
+                    Edgewater, FL 32132
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="bottom-container">
+        <div class="content">
+            <h4>Share this page:</h4>
+            <div class="media-icons">
+                <a href="https://coastalfd.com/?share=facebook&nb=1" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://coastalfd.com/?share=twitter&nb=1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="content" id="cfd-link" >
+            <p><a href="https://coastalfd.com">Coastal Flooring Distributors</a>, Website powered by Disco</p>
         </div>
     </section>
 

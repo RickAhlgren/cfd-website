@@ -9,13 +9,14 @@
     font-family: "Montserrat";
 }
 
-section {
+/* CSS FOR THE TOP SECTION */
+
+#top-container {
     position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     background: url(bg.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,18 +31,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
-/* header .logo {
-    position: relative;
-    color: #000;
-    font-size: 30px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 1px;
-    background: url(cfd-logo.png);
-    margin: 10px;
-} */
 
 header .navigation a {
     color: #000;
@@ -65,6 +54,15 @@ header .navigation a:hover {
 .content {
     max-width: 650px;
     margin: 60px 100px;
+}
+
+.content h2 {
+    color: #F2F2F2;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    line-height: 60px;
+    text-shadow: #000 0px 0 10px;
 }
 
 .content .info h2 {
@@ -103,13 +101,6 @@ header .navigation a:hover {
     background: #D9BBA0;
 }
 
-.media-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
 .media-icons a {
     position: relative;
     color: #93BFBB;
@@ -135,6 +126,88 @@ label {
     display: none;
 }
 
+/* CSS FOR MIDDLE SECTION */
+
+#middle-container {
+    background-color:#F2F2F2;
+    padding: 100px;
+}
+
+#middle-container .content {
+    margin: 0;
+}
+
+#product-row {
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* CSS FOR CONTACT SECTION */
+
+#contact-container {
+    background-color: #76A69D;
+}
+
+#contact-container h2 {
+    text-shadow: none;
+}
+
+#contact-container p {
+    color: #F2F2F2;
+}
+
+#contact-container a {
+    color: #F2F2F2;
+    text-decoration-color: #F2F2F2;
+}
+
+#contact-container .content {
+    max-width: 100%;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 25px;
+}
+
+/* CSS FOR BOTTOM SECTION */
+
+#bottom-container {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 80px 0px 0px 0px;
+}
+
+#bottom-container .content {
+    margin: 0;
+    padding: 20px 100px;
+}
+
+#bottom-container a {
+    text-decoration: none;
+}
+
+#bottom-container a:hover {
+    color: #72A6A1;
+}
+
+#bottom-container a:active {
+    color: #72A6A1;
+}
+
+#cfd-link a:visited {
+    color: #000;
+}
+
+.media-icons {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
 
 /* Responsive styles */
 
