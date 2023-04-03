@@ -282,12 +282,33 @@ label {
 }
 
 @media (max-width: 560px) {
+    .content {
+        max-width: 100%;
+        margin: 10px;
+    }
+
     .content .info h2 {
-        font-size: 35px;
+        font-size: 2.2rem;
         line-height: 40px;
+        letter-spacing: .4rem;
     }
 
     .content .info p {
         font-size: 14px;
+    }
+
+    #middle-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #product-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product-logo-image {
+        max-width: 100%;
+        height: auto;
     }
 }
