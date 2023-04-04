@@ -109,10 +109,6 @@ header .navigation a:hover {
     transition-property: transform;
 }
 
-/* .media-icons a:not(:last-child) {
-    margin-right: 60px;
-} */
-
 .media-icons a:hover {
     transform: scale(1.5);
 }
@@ -314,8 +310,13 @@ label {
 }
 
 @media (max-width: 560px) {
-    #top-container header {
-        /* padding: 30px 90px; */
+
+    header {
+        padding: 10px 50px;
+    }
+
+    header i {
+        font-size: 30px;
     }
     
     .content {
